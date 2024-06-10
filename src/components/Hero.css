@@ -1,0 +1,22 @@
+
+.hero-button {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border: 2px solid #f9f9f9;
+  border-radius: 5px; 
+  background-color: transparent; 
+  color: #f9f9f9; 
+  transition: all 0.3s; 
+}
+
+.hero-button:hover {
+  transform: scale(1.1);
+  background-color: #f9f9f9; 
+  color: #0a2e38;
+}
+
+.hero-button:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}

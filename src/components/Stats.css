@@ -1,0 +1,45 @@
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    color: #333;
+    flex-wrap: wrap; 
+  }
+  
+  .stat {
+    text-align: center;
+    flex: 1 0 200px; 
+    margin: 10px; 
+  }
+  
+  .stat svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    fill: #333;
+  }
+  
+  .stat h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .stat p {
+    font-size: 1.2em;
+  }
+  
+  @media (max-width: 600px) {
+    .stat {
+      flex: 1 0 100%; 
+    }
+  
+    .stat h2 {
+      font-size: 2em; 
+    }
+  
+    .stat p {
+      font-size: 1em;
+    }
+  }

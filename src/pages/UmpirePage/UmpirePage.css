@@ -1,0 +1,21 @@
+/* UmpirePage.css */
+.card {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+  }

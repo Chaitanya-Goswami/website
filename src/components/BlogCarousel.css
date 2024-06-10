@@ -1,0 +1,86 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light gray background */
+}
+  .carousel-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+    margin-bottom: 20px;
+  }
+  
+  .carousel {
+    width: 75%; /* Adjust this value as needed */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .card {
+    margin: 0 auto; /* This will center the cards if they are less than 100% width */
+    border: none; /* Remove the default border */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover; /* Make the images cover the card */
+  }
+  
+  .card-title {
+    color: #333; /* Dark gray text */
+  }
+  
+  .card-text {
+    color: #666; /* Medium gray text */
+  }
+  
+  /* Style the dots */
+  .custom-dot-list-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .custom-dot-list-style li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .custom-dot-list-style li button {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    background-color: #ccc; /* Light gray dots */
+    border-radius: 50%;
+    outline: none;
+  }
+  .react-multi-carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  .custom-dot-list-style li.slick-active button {
+    background-color: #333; /* Dark gray active dot */
+  }
+
+  @media (max-width: 464px) {
+    .react-multi-carousel-item {
+      padding: 0 5px !important; /* Add some horizontal padding */
+    }
+  }
+  
+  .blog-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.05);
+  }

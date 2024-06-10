@@ -1,0 +1,30 @@
+.error-container {
+    background-color: #ffffff; 
+    color: #721c24;
+  }
+  
+  .error-icon {
+    margin-bottom: 20px;
+  }
+  
+  .error-icon-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .error-code {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #721c24;
+    border-color: #721c24;
+  }

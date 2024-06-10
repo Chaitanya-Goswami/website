@@ -1,0 +1,38 @@
+.who-we-are-section {
+    padding: 100px 0;
+    background: linear-gradient(to right, #0a2e38, #000000);
+  }
+  
+  .who-we-are-section h1,
+  .who-we-are-section h2 {
+    font-weight: 700;
+    color: #f9f9f9;
+  }
+  
+  .who-we-are-section p {
+    color: #ddd;
+    font-weight: 300;
+  }
+  
+  .who-we-are-section .btn {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border: 2px solid #f9f9f9;
+    border-radius: 5px; 
+    background-color: transparent; 
+    color: #f9f9f9; 
+    transition: all 0.3s;
+  }
+  
+  .who-we-are-section .btn:hover {
+    transform: scale(1.1);
+    background-color: #f9f9f9;
+    color: #0a2e38; 
+  }
+  
+  .who-we-are-section hr {
+    border-top: 1px solid #ddd;
+    width: 50%;
+    margin: 0 auto;
+  }
